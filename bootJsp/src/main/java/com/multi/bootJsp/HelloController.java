@@ -15,7 +15,7 @@ public class HelloController {
 	
 	@RequestMapping("/hello")
 	public String helloMsg(Model model) {
-		model.addAttribute("message", "안녕하세요.");
+		model.addAttribute("message", "안녕하세요. 수정했습니다.");
 		return "hello"; // 뷰 페이지 이름 : hello.jsp
 	}
 }
